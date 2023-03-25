@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+::selection {
+  background-color: #79ffe1;
+  color: #000; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'Inter', sans-serif; }
+
+body {
+  background-color: #FFF; }
+
+.wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(1248px);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding: 100px 0; }
+  .wrapper .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .wrapper .hero img.logo {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+    .wrapper .hero p {
+      text-align: center;
+      max-width: 700px;
+      font-size: 24px;
+      color: #666666; }
+
+footer {
+  height: 128px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #EAEAEA; }
+  footer .footer-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    footer .footer-body p {
+      color: #666666; }
+  footer ul.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; }
+    footer ul.footer-social li {
+      padding: 0px 15px; }
+      footer ul.footer-social li:first-child {
+        border-right: 1px solid #EAEAEA; }
+      footer ul.footer-social li a svg {
+        color: #666666; }
+
+/*# sourceMappingURL=style.css.map */
