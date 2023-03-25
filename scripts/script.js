@@ -1,6 +1,6 @@
-addEventListener("resize", (event) => {
-    console.log(window.innerWidth);
+resizeText();
 
+addEventListener("resize", (event) => {
     resizeText()
 })
 
